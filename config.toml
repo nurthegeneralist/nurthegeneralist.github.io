@@ -14,8 +14,8 @@ languageCode = "en"
 language = "en"
 theme = "vncnt-hugo"
 title = "Nur - The - Generalist"
-
 _merge = "none"
+publishDir = "docs"
 
 [permalinks]
   fixed = ":title/"
@@ -35,6 +35,7 @@ _merge = "none"
   [params.contact]
     # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
     github = "https://github.com/nurthegeneralist"
+    bluesky = "https://bsky.app/profile/nurthegeneralist.bsky.social"
     #instagram = "https://instagram.com/jdoe"
     #twitter = "https://twitter.com/jdoe"
     
